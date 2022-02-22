@@ -303,6 +303,7 @@ img {
     display:block;
     border-radius:50%;
     background:#ccc;/*ドットボタンの色*/
+    object-fit: contain;
 }
 
 .slick-dots .slick-active button{
