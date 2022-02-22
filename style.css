@@ -416,7 +416,7 @@ img {
   /*liにactiveクラスがついた時の形状*/
 .tab li.active a{
     background:#fff;
-    border: thin solid black;
+    outline: thin solid black;
 }
   /*エリアの表示非表示と形状*/
 .area {
@@ -432,7 +432,7 @@ img {
     animation-name: displayAnime;/*ふわっと表示させるためのアニメーション*/
     animation-duration: 2s;
     animation-fill-mode: forwards;
-    border: thin solid black;
+    outline: thin solid black;
 }
 
 @keyframes displayAnime{
@@ -478,7 +478,7 @@ img {
 }
 .area-txt {
   color: black;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   position: absolute;
   top: 95%;
   left: 50%;
