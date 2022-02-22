@@ -497,9 +497,6 @@ img {
 
 }*/
 /*---------------support-------------*/
-#support {
-    min-height: 100vh;
-}
 .grid {
     display: grid;
     gap: 5%;
