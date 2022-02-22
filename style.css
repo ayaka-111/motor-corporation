@@ -472,8 +472,8 @@ img {
     opacity: 0.7;
 }
 .area img {
-    width: 20%;
-    height: 10%;
+    width: 50px;
+    height: 35px;
 }
 .area-txt {
   color: black;
