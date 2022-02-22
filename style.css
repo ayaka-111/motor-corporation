@@ -364,6 +364,7 @@ img {
 .news-imp {
     color: red;
     margin: 12% 5%;
+    font-weigh: bold;
 }
 .news-list a {
     color: black;
@@ -384,6 +385,7 @@ img {
 .cp-title {
     font-size: 1.4rem;
     color: black;
+    font-weight: bold;
     text-align: center;
 }
 .cp-item p {
@@ -636,6 +638,7 @@ img {
   }
   .news-imp {
     margin: 5% 5%;
+    text-align: center;
   }
   .cp {
     width: 100%;
