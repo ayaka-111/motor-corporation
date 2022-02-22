@@ -656,5 +656,8 @@ img {
   .tab li a{
     white-space: nowrap;
   }
+  #support {
+    min-height:1250px;
+  }
 
   }/*media*/
