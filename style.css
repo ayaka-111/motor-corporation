@@ -137,45 +137,23 @@ img {
     background-size: auto;
 }
 #video {
-    /*天地中央配置*/
-    /*position: absolute;*/
-    /*z-index: 1;/*-1*/
-    /*top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    /*縦横幅指定*/
-    /*width:100%;
-    height: 100vh;*/
-    /*z-index: 300;*/
-    /*width: 177.77777778vh; /* 16:9 の幅→16
-    height: 100vh;
-    z-index; 300 ÷ 9＝ 177.77% */
-    /*height: 56.25vw; /* 16:9の幅 → 9 ÷ 16 = 56.25% */
     min-height: 100vh;
     min-width: 100%;
-    /*height: auto;
-    width: auto;*/
-
-
 }
 
 /*見出し設定*/
-.header-title{
+.header-title {
     /*要素の配置*/
     position:absolute;
     /*要素を天地中央寄せ*/
-    top: 50%;/*50%*/
-    left: 50%;/*50%*/
+    top: 50%;
+    left: 50%;
     transform: translateY(-50%) translateX(-50%);
     /*見た目の調整*/
-    color:#fff;
+    color: #fff;
     text-shadow: 0 0 15px #666;
-    /*z-index: 2;*/
     font-size: 2rem;
-    /*width: 100%;
-    height: 100vh;*/
 }
-
 .title-line {
     display: none;  /*PCでは改行無効*/
 }
@@ -187,29 +165,24 @@ img {
     background-color: #fff;
     min-height: 100vh;
 }
+
+
 /*====================スライドショー=================-*/
 .slider {
-    position:relative;
-    /*z-index: 1;*/
-    /*↑z-indexの値をh1のz-indexの値よりも小さくして背景に回す*/
-    height: 400px;/*スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+    position: relative;
+    height: 400px;
     align-items: center;
 }
-.slider-img{
-    width: 80%;/*各スライダー全体の横幅を画面の高さいっぱい（100%）にする*/
-    height: 400px;/*各スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+.slider-img {
+    width: 80%;
+    height: 400px;
     object-fit: cover;
-
-    /* background-repeat: no-repeat;/*背景画像をリピートしない */
-    /* background-position: center;/*背景画像の位置を中央に*/
-    /* background-size: cover;/*背景画像が.slider-item全体を覆い表示*/
 }
 .main-content img {
-    margin:0 auto;  /*スライドショーを真ん中に配置*/
+    margin: 0 auto;  /*スライドショーを真ん中に配置*/
 }
 
-/*矢印の設定*/
-
+/*-------矢印の設定--------*/
 /*戻る、次へ矢印の位置*/
 .slick-prev,
 .slick-next {
@@ -225,75 +198,54 @@ img {
     margin-left: 10%;
     margin-right: 10%;
 }
-
 .slick-prev {/*戻る矢印の位置と形状*/
-    left:2.5%;
+    left: 2.5%;
     transform: rotate(-135deg);
 }
-
 .slick-next {/*次へ矢印の位置と形状*/
-    right:2.5%;
+    right: 2.5%;
     transform: rotate(45deg);
 }
 
 /*ドットナビゲーションの設定*/
-
 .slick-dots {
     position: relative;
     z-index: 3;
-    text-align:center;
-    margin:-50px 0 0 0;
+    text-align: center;
+    margin: -50px 0 0 0;
 }
-
 .slick-dots li {
-    display:inline-block;
-    margin:0 5px;
+    display: inline-block;
+    margin: 0 5px;
 }
-
 .slick-dots button {
     color: transparent;
     outline: none;
-    width:8px;/*ドットボタンのサイズ*/
-    height:8px;/*ドットボタンのサイズ*/
-    display:block;
-    border-radius:50%;
-    background:#ccc;/*ドットボタンの色*/
+    width: 8px;/*ドットボタンのサイズ*/
+    height: 8px;/*ドットボタンのサイズ*/
+    display: block;
+    border-radius: 50%;
+    background: #ccc;/*ドットボタンの色*/
     object-fit: contain;
 }
-
-.slick-dots .slick-active button{
-    background:#333;/*ドットボタンの現在地表示の色*/
+.slick-dots .slick-active button {
+    background: #333;/*ドットボタンの現在地表示の色*/
 }
-
-.slider{
-    margin:0;
+.slider {
+    margin: 0;
     padding: 0;
     list-style: none;
 }
-
-.container a{ /*いる？*/
+.container a { /*いる？*/
     color: #fff;
 }
-
 .container a:hover,
-.container a:active{ /*いる？*/
+.container a:active { /*いる？*/
     text-decoration: none;
 }
-
-.home-slide{
+.home-slide {
     position: relative;
 }
-
-/*.container{
-  background:#555;
-}
-
-.container p{
-  padding: 300px 0;
-  text-align: center;
-  color: #fff;
-}*/
-
 
 
 /*----------info---------------*/
@@ -314,9 +266,6 @@ img {
     list-style-type: none;
     margin: 5% 5%;
 }
-/*.news-list li:nth-child(even){
-    background: lightgray;
-}*/
 .news-imp {
     color: red;
     margin: 12% 5%;
@@ -325,7 +274,6 @@ img {
 .news-list a {
     color: black;
 }
-
 .cp {
     overflow: scroll;
     width: 500px;
@@ -355,33 +303,33 @@ img {
     border-bottom: thin solid darkgray;
 }
 
+
 /*------------------------#type-----------------------*/
 /*-------------lineup----------*/
 /*tabの形状*/
-.tab{
+.tab {
     display: flex;
     flex-wrap: wrap;
 }
-.tab li a{
+.tab li a {
     display: block;
-    background:#ddd;
-    margin:0 2px;
-    padding:10px 20px;
+    background: #ddd;
+    margin: 0 2px;
+    padding: 10px 20px;
 }
-  /*liにactiveクラスがついた時の形状*/
-.tab li.active a{
-    background:#fff;
+/*liにactiveクラスがついた時の形状*/
+.tab li.active a {
+    background: #fff;
     outline: thin solid black;
 }
-  /*エリアの表示非表示と形状*/
+/*エリアの表示非表示と形状*/
 .area {
     display: none;/*はじめは非表示*/
     opacity: 0;/*透過0*/
     background: #fff;
-    padding:50px 20px;
+    padding: 50px 20px;
 }
-
-  /*areaにis-activeというクラスがついた時の形状*/
+/*areaにis-activeというクラスがついた時の形状*/
 .area.is-active {
     display: block;/*表示*/
     animation-name: displayAnime;/*ふわっと表示させるためのアニメーション*/
@@ -389,38 +337,34 @@ img {
     animation-fill-mode: forwards;
     outline: thin solid black;
 }
-
-@keyframes displayAnime{
+@keyframes displayAnime {
     from {
       opacity: 0;
     }
     to {
       opacity: 1;
     }
-  }
+}
 .tab,
 .area ul {
     list-style: none;
 }
-.tab a{
-    color:#333;
+.tab a {
+    color: #333;
     text-decoration: none;
 }
-
 .lineup {
     width:100%;
     max-width: 960px;
-    margin:5% auto;
-    background:#fefefe;
+    margin: 5% auto;
+    background: #fefefe;
 }
-
-.area h3{
-    font-size:1.3rem;
-    margin:0 0 20px 10px;
+.area h3 {
+    font-size: 1.3rem;
+    margin: 0 0 20px 10px;
 }
-.area li{
+.area li {
     padding: 10px;
-    /*border-right: 1px solid #ddd;*/
     display: inline;
     position: relative;
 }
@@ -443,14 +387,11 @@ img {
   margin: 0;
   padding: 0;
 }
-
 .title {
     font-size: 2em;
 }
-/*#compact {
-  display: flex;
 
-}*/
+
 /*---------------support-------------*/
 .grid {
     display: grid;
@@ -459,10 +400,9 @@ img {
     margin-top: 5%;
     margin-bottom: 5%;
 }
-.grid-item img{
+.grid-item img {
     width: 80px;
     height: 80px;
-    /*object-fit: cover;*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -477,7 +417,6 @@ img {
     width: 300px;
     height: 150px;
     position: relative;
-
 }
 .grid-item p {
     color: black;
@@ -490,18 +429,18 @@ img {
     margin: 0;
     padding: 0;
 }
-
 .grid-item:hover {
     transform: scale(0.9);/*拡大の値*/
     opacity: 0.7;/*透過具合*/
 }
 
+
 /*=============page top=========================*/
-#page-top a{
+#page-top a {
     display: flex;
-    justify-content:center;
-    align-items:center;
-    background:#000033;
+    justify-content: center;
+    align-items: center;
+    background: #000033;
     border-radius: 5px;
     width: 60px;
     height: 60px;
@@ -509,27 +448,26 @@ img {
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    font-size:0.6rem;
-    transition:all 0.3s;
+    font-size: 0.6rem;
+    transition: all 0.3s;
 }
-#page-top a:hover{
+#page-top a:hover {
     background: #777;
 }
 
-  /*リンクを右下に固定*/
+/*リンクを右下に固定*/
 #page-top {
     position: fixed;
     right: 10px;
-    bottom:10px;
+    bottom: 10px;
     z-index: 2;
-      /*はじめは非表示*/
+   /*はじめは非表示*/
     opacity: 0;
     transform: translateY(100px);
 }
 
-  /*　上に上がる動き　*/
-
-#page-top.UpMove{
+/*　上に上がる動き　*/
+#page-top.UpMove {
     animation: UpAnime 0.5s forwards;
 }
 @keyframes UpAnime{
@@ -543,9 +481,8 @@ img {
     }
 }
 
-  /*　下に下がる動き　*/
-
-#page-top.DownMove{
+/*　下に下がる動き　*/
+#page-top.DownMove {
     animation: DownAnime 0.5s forwards;
 }
 @keyframes DownAnime{
@@ -559,7 +496,7 @@ img {
     }
 }
 /*---------------------footer-----------------------*/
-#footer{
+#footer {
     position: relative;
     z-index: 300;
     text-align: center;
@@ -569,8 +506,8 @@ img {
 }
 
 /*----------------対応----------------------------*/
-@media screen and (max-width: 600px){
-  .title-line {   /*効いてない*/
+@media screen and (max-width: 600px) {
+  .title-line { /*改行*/
     display: block;
   }
   .slider {
@@ -614,5 +551,4 @@ img {
   #support {
     min-height:1250px;
   }
-
-  }/*media*/
+}/*media*/
