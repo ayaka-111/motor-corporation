@@ -4,18 +4,10 @@ html {
     font-size: 100%;
 }
 body　{
-    font-family:"Yu Gothic Medium", "遊ゴシック Medium", YuGothic, "遊ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
+    font-family:　"Yu Gothic Medium", "遊ゴシック Medium", YuGothic, "遊ゴシック体", "ヒラギノ角ゴ Pro W3", sans-serif;
     line-height: 1.7;
 }
-
-
-
-/*.logo img{
-    width: 60px;
-    /* margin-top: 54.39px;/*logoイメージの高さ */
-    /* margin-right: 1600px; */
-}
-a{
+a　{
     text-decoration: none;
 }
 img {
@@ -28,7 +20,7 @@ img {
 }
 
 /*=============ハンバーガーメニュー======================*/
-.page-header{
+.page-header　{
     /*display: flex;
     justify-content: center;
     /*align-items: center; */
