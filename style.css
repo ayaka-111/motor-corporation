@@ -236,13 +236,6 @@ img {
     padding: 0;
     list-style: none;
 }
-.container a { /*いる？*/
-    color: #fff;
-}
-.container a:hover,
-.container a:active { /*いる？*/
-    text-decoration: none;
-}
 .home-slide {
     position: relative;
 }
