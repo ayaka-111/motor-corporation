@@ -140,8 +140,8 @@ a　{
     background-size: auto;
 }
 #video {
-    min-height: 100vh;
-    min-width: 100%;
+    max-height: 100vh;
+    max-width: 100%;
 }
 
 /*見出し設定*/
