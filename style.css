@@ -134,7 +134,7 @@ a　{
     position: relative;/*titleの中央寄せ配置の起点とするためのrelative*/
     text-align: center;
     overflow: hidden;
-    width: %;
+    max-width: 100%;
     height: 100vh;
     background: url(images/videoimg.jpg)no-repeat center center/cover;
     background-size: auto;
