@@ -22,6 +22,7 @@ img {
 
 /*=============ハンバーガーメニュー======================*/
 .page-header {
+    z-index: -300;
 }
 .nav {
     position: fixed;
@@ -137,7 +138,6 @@ img {
     height: 100vh;
     background: url(images/videoimg.jpg)no-repeat center center/cover;
     background-size: auto;
-}
 }
 #video {
     min-height: 100vh;
