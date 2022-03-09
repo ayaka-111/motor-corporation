@@ -21,9 +21,6 @@ a　{
 
 
 /*=============ハンバーガーメニュー======================*/
-.page-header {
-    z-index: -300;
-}
 .nav {
     position: fixed;
     right: -320px; /* これで隠れる1000 */
@@ -134,7 +131,7 @@ a　{
     position: relative;/*titleの中央寄せ配置の起点とするためのrelative*/
     text-align: center;
     overflow: hidden;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background: url(images/videoimg.jpg)no-repeat center center/cover;
     background-size: auto;
