@@ -21,6 +21,8 @@ img {
 
 
 /*=============ハンバーガーメニュー======================*/
+.page-header {
+}
 .nav {
     position: fixed;
     right: -320px; /* これで隠れる1000 */
@@ -135,6 +137,7 @@ img {
     height: 100vh;
     background: url(images/videoimg.jpg)no-repeat center center/cover;
     background-size: auto;
+}
 }
 #video {
     min-height: 100vh;
