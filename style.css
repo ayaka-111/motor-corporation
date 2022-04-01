@@ -9,6 +9,7 @@ body　{
 }
 a　{
     text-decoration: none;
+    color: black;
 }
 .wrapper {
     max-width: 1600px;
@@ -491,9 +492,6 @@ h4 {
     position: relative;
     z-index: 300;
     text-align: center;
-}
-.footer-menu a {
-    color: black;
 }
 .copyright {
     font-size: 0.2rem;
