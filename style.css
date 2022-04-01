@@ -492,6 +492,9 @@ h4 {
     z-index: 300;
     text-align: center;
 }
+.footer-menu a {
+    color: black;
+}
 .copyright {
     font-size: 0.2rem;
 }
