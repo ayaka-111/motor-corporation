@@ -172,6 +172,9 @@ a　{
     position: relative;
     height: 400px;
     align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 .slider-img {
     width: 80%;
@@ -231,15 +234,6 @@ a　{
 .slick-dots .slick-active button {
     background: #333;/*ドットボタンの現在地表示の色*/
 }
-.slider {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-.home-slide {
-    position: relative;
-}
-
 
 /*----------info---------------*/
 .info {
