@@ -17,7 +17,6 @@ a　{
     max-width: 1600px;
     margin: 0 auto;
     /*padding: 0 2%;*/
-    line-height: 0;
 }
 
 
@@ -138,6 +137,7 @@ a　{
     background-size: auto;
     /*background-position: center top;
     background-repeat: no-repeat;*/
+    line-height: 0;
 }
 #video {
     min-height: 100vh;
