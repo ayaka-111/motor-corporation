@@ -137,7 +137,6 @@ a　{
     background-size: auto;
     /*background-position: center top;
     background-repeat: no-repeat;*/
-    line-height: 0;
 }
 #video {
     min-height: 100vh;
