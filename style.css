@@ -115,6 +115,10 @@ a　{
 
 
 /*------------------home----------------------------*/
+#home {
+    min-height: 100vh;
+    width: 100%;
+}
 .logo {
     width: 60px;
     z-index: 300;
@@ -131,7 +135,7 @@ a　{
     text-align: center;
     overflow: hidden;
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background: url(images/videoimg.jpg)no-repeat center center/cover;
     background-size: auto;
 }
