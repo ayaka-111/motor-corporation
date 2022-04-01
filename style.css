@@ -126,7 +126,7 @@ a　{
 
 
 /*===============背景動画================*/
-#video-header　{
+#video　{
     position: relative;/*titleの中央寄せ配置の起点とするためのrelative*/
     text-align: center;
     overflow: hidden;
@@ -135,11 +135,11 @@ a　{
     background: url(images/videoimg.jpg)no-repeat center center/cover;
     background-size: auto;
 }
-#video {
+/*#video {
     min-height: 100vh;
     width: 100%;
     
-}
+}*/
 
 /*見出し設定*/
 .header-title {
