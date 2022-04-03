@@ -138,14 +138,10 @@ h1 img {
     background-size: auto;
     background-position: center top;
     background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
 }
 #video {
     min-height: 100vh;
     width: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 /*見出し設定*/
@@ -391,8 +387,7 @@ h4 {
     display: grid;
     gap: 5%;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin: 5%;
 }
 .grid-item img {
     width: 80px;
