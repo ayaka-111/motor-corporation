@@ -140,6 +140,7 @@ h1 img {
     background-size: auto;
     background-position: center top;
     background-repeat: no-repeat;
+    object-fit: cover;
 }
 #video {
     min-height: 100vh;
